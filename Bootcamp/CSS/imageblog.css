@@ -1,0 +1,15 @@
+img {
+   width: 30%;
+   float: left;
+   margin: 1.6%
+}
+
+p {
+    font-family: 'Pacifico';
+    margin-left: 1.6%;
+    font-size: 2em;
+    font-weight: bold;
+    width: 30%;
+    border-bottom: 2px solid #f1f1f1;
+    padding-bottom: 20px;
+}

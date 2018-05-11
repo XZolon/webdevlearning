@@ -1,0 +1,41 @@
+/* font-family */
+
+p {
+    font-family: Arial;
+    color: red;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+/* font-size */
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+   font-size: 5em; 
+}
+
+p {
+    font-size: 2em;
+}
+
+span {
+    font-size: 1.2em;
+}
+
+/* font-weight */
+
+p {
+    font-weight: bold;
+}
+
+/* line-height */
+
+h1 {
+    line-height: 1.5;
+}
