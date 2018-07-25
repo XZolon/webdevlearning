@@ -1,0 +1,14 @@
+h1 {
+	color: rgba(0, 200, 100, 0.8);
+	border: 5px solid purple;
+}
+
+h4 {
+	background: rgb(255, 100, 80)
+}
+
+body {
+	background: url(https://d2jd5cd93sjelr.cloudfront.net/spree/images/34243/large/f2002235-2_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

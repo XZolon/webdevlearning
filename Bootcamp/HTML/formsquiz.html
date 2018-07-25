@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<div>
+			<label for="FirstName">First Name:</label>
+			<input type="text" id="FirstName" name="FirstName" placeholder="John" required>
+
+			<label for="LastName">Last Name:</label>
+			<input type="text" id="LastName" name="LastName" placeholder="Smith" required>
+			<br />
+				
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="Gender" value="male">
+			<label for="female">Female</label> 
+			<input type="radio" id="female" name="Gender" value="female">
+			<label for="other">Other</label> 
+			<input type="radio" id="other" name="Gender" value="other">
+			<br />
+
+			<label for="Email">Email:</label>
+			<input type="Email" id="Email" name="Email" placeholder="Your email" required>
+
+			<label for="Password">Password:</label>
+			<input type="Password" id="Password" name="Password" pattern=".{5,10}" required title="Please enter a password of 5 to 10 characters in length.">
+		</div>
+		<div>
+			Birthday:
+			<select id="bdaymonth" name="BirthMonth">
+				<option value="" disabled selected=>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+			</select>
+
+			<select id="bdayday" name="BirthDay">
+				<option value="" disabled selected=>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+			</select>
+
+			<select id="bdayyear" name="BirthYear">
+				<option value="" disabled selected=>Year</option>
+				<option>2018</option>
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+			</select>
+		</div>
+		<div>
+			<label for="AgreeToTerms">I agree to the terms and conditions:</label>
+		    <input type="checkbox" id="AgreeToTerms" name="AgreeToTerms" value="Yes">
+	    </div>
+
+	    <button>Submit</button>		
+	</form>
+</body>
+</html>
